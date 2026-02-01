@@ -45,7 +45,7 @@ jobs:
         with:
           repository: ajb142/ajb142.github.io
           path: github-io-repo
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
       
       - name: Clear and update clicker directory
         run: |
